@@ -1,0 +1,135 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  nav .nav-links {
+    display: flex;
+  }
+  
+  nav .nav-links li {
+    margin-left: 20px;
+  }
+  
+  nav .nav-links a {
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  nav .nav-links a:hover {
+    color: #f4f4f9;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #673ab7;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .hero .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero .btn:hover {
+    background-color: #444;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    max-width: 800px;
+    margin: 10px auto;
+  }
+  
+  /* Projects Section */
+  .projects {
+    background-color: #f4f4f9;
+    padding: 80px 0;
+  }
+  
+  .projects h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .project {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
+    max-width: 
+  
